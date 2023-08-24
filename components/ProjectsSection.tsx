@@ -6,27 +6,26 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Spotify Wizard",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "Spotify data visualization app and GenAI playlist generator.",
+    image: "/spotipy_edit.png",
+    github: "https://github.com/donadelicc/my_spotify",
+    link: "http://donadelicc.pythonanywhere.com/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "App 2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "/loading.jpg",
+    github: "https://github.com/",
+    link: "https://google.com/",
   },
   {
-    name: "Kator Family Photos",
-    description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    name: "App 3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "/loading.jpg",
+    github: "https://github.com/",
+    link: "https://google.com/",
   },
 ]
 
