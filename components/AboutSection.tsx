@@ -30,24 +30,27 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
+              Hi, my name is Preben and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              <span className="font-bold">{" driven"}</span> individual who is
+              passionate about technology and innovation.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I graduated from Kristiania University College with a Bachelor&#39;s
+              degree in Economics and Digitalization. I am currently at my last
+              year of my Bachelor&#39;s degreer in Computer Engineering at the Western
+              Norway University of Applied Sciences.
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              I have a passion for{" "}
+              <span className="font-bold text-teal-500">{"machine learning"}</span>{" "}
+              and lately I have been working on a lot of{" "}
+              <span className="font-bold text-teal-500">{"GenAI"}</span>{" "}
+              projects. 
+
             </p>
             <br />
             <p>
