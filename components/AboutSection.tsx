@@ -2,17 +2,13 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
   { skill: "Python" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
-  { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "JavaScript" },
+  { skill: "GenAI Applications" },
+  { skill: "Unity ML-Agents" },
+  { skill: "React, Next.js, Flask & Spring Boot" },
+  { skill: "Process automation - RPA, Web Scraping & API's" },
+  { skill: "Excel, Macros, PowerBi, SQL & JSON " },
 ]
 
 const AboutSection = () => {
@@ -64,8 +60,8 @@ const AboutSection = () => {
               always open to new opportunities. 🙂
             </p>
           </div>
-          <div className="text-center md:w-1/2 md:text-left">
-            <h1 className="text-2xl font-bold mb-6">My Skills</h1>
+          <div className="text-center md:w-1/2 md:text-left relative">
+            <h1 className="text-2xl font-bold mb-6">Selfproclaimed technical skills </h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (
@@ -79,12 +75,12 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/hero-image.png"
+              src="/monkey.png"
               alt=""
-              width={325}
-              height={325}
-              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
-            />
+              width={200}
+              height={200}
+              className="hidden md:block absolute bottom-0 right-0"
+              />
           </div>
         </div>
       </div>
