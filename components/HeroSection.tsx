@@ -23,8 +23,9 @@ const HeroSection = () => {
             I&#39;m an{" "}
             <span className="font-semibold text-teal-600">
               Economics and Computer Engineer student{" "}
-            </span>
-            based in Bergen, Norway. Curios about all things tech, innovation and disruption.
+            </span> based in Bergen, Norway. 
+            <br />
+            - All about science, technology, innovation and living a good life.
           </p>
           <Link
             to="projects"
