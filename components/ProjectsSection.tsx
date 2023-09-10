@@ -6,9 +6,9 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Spotify Wizard",
+    name: "My Spotify",
     description:
-      "Spotify data visualization app and GenAI playlist generator.",
+      "Platform for all things spotify. Your music statistics and your very own playlist generator using AI!",
     image: "/spotipy_edit.png",
     github: "https://github.com/donadelicc/my_spotify",
     link: "http://donadelicc.pythonanywhere.com/",
