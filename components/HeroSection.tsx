@@ -27,12 +27,6 @@ const HeroSection = () => {
             <br />
             - All about science, technology, innovation and living a good life.
           </p>
-          <ScrollLink to="projects" smooth={true} duration={500}>
-            <button className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700">
-              Go to Projects
-            </button>
-          </ScrollLink>
-
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
