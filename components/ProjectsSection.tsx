@@ -14,19 +14,20 @@ const projects = [
     link: "https://myspotify.azurewebsites.net/",
   },
   {
-    name: "web-chat - proof of concept",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "/loading.jpg",
-    github: "https://github.com/",
+    name: "Web Chat",
+    description: "GenAI Web Chat. OpenAI's GPT-3.5-turbo takes in the HTML code of the website and will only let you ask questions based on that exact content.",
+    image: "/webChatt.png",
+    github: "https://github.com/donadelicc/web-chat",
     link: "https://google.com/",
   },
   {
-    name: "App 3",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "/loading.jpg",
-    github: "https://github.com/",
-    link: "https://google.com/",
-  },
+    name: "Doc Digitizer",
+    description: "A web app that takes in a scanned PDF's and returns a digitized new PDF version",
+    image: "/ocrNettside.png",
+    github: "https://github.com/donadelicc/poc_ocr-for-pdf",
+    link: "https://docdigitizer.azurewebsites.net/",
+  }
+
 ]
 
 const ProjectsSection = () => {
