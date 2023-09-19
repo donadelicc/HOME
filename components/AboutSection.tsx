@@ -46,7 +46,7 @@ const AboutSection = () => {
               <span className="font-bold text-teal-500">{"GenAI"}</span>{" "}
               applications such as a PDF-chat web application, a playlist generator for Spotify and a
               website-chat tool. My next tech deep dive will be to fine-tune OpenAi&#39;s GPT-3.5-turbo model on a
-              custom dataset with the goal of creating a chatbot with domain specific knowledge.{" "}
+              custom dataset with the goal of creating a flexible chatbot with domain specific knowledge.{" "}
               <span className="font-bold text-teal-500">{"Stay tuned!"}</span>{" "}
 
             </p>
