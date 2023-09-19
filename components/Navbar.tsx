@@ -1,7 +1,6 @@
 "use client" // this is a client component
 import React from "react"
 import { useState } from "react"
-import { Link as ScrollLink} from "react-scroll"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
@@ -27,6 +26,14 @@ const NAV_ITEMS: Array<NavItem> = [
   },
 ]
 
+const handleScroll = (elementId: string) => {
+  const element = document.getElementById(elementId);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
+
 export default function Navbar() {
   const { systemTheme, theme, setTheme } = useTheme()
   const currentTheme = theme === "system" ? systemTheme : theme
@@ -37,11 +44,10 @@ export default function Navbar() {
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <ScrollLink to="home">
-              <div className="container flex items-center space-x-2">
-                <h2 className="text-2xl font-bold hover:cursor-pointer">Preben Andersen</h2>
-              </div>
-            </ScrollLink>
+          <h2 className="text-2xl font-bold hover:cursor-pointer" onClick={() => handleScroll('home')}>
+            Preben Andersen
+          </h2>
+
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -62,21 +68,17 @@ export default function Navbar() {
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               {NAV_ITEMS.map((item, idx) => {
                 return (
-                  <ScrollLink
-                    key={idx}
-                    to={item.page}
-                    className={
-                      "block lg:inline-block text-neutral-900  hover:hover:cursor-pointer dark:text-neutral-100"
-                    }
-                    activeClass="active"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                    onClick={() => setNavbar(!navbar)}
-                  >
-                    {item.label}
-                  </ScrollLink>
+                  <span 
+                  key={idx}
+                  onClick={() => {
+                    handleScroll(item.page);
+                    setNavbar(!navbar);
+                  }}
+                  className={"block lg:inline-block text-neutral-900  hover:hover:cursor-pointer dark:text-neutral-100"}
+                >
+                  {item.label}
+                </span>
+                
                 )
               })}
               {currentTheme === "dark" ? (
