@@ -21,6 +21,13 @@ const projects = [
     link: "https://google.com/",
   },
   {
+    name: "CHATGPT Assistant",
+    description: "A web app that provides custom instruction sets for ChatGPT, enhancing user experience with tailored AI responses",
+    image: "/chatgptinstruction.png",
+    github: "https://github.com/donadelicc/chatGPTHelper",
+    link: "https://chat-gpt-intructions.vercel.app/",
+  },
+  {
     name: "Doc Digitizer",
     description: "A web app that takes in a scanned PDF's and returns a digitized new PDF version",
     image: "/ocrNettside.png",

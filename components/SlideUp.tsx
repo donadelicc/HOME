@@ -33,4 +33,6 @@ export default function SlideUp({ children, offset = "0px" }: Props) {
       {children}
     </div>
   )
+
+  
 }
