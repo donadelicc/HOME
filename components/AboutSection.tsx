@@ -34,19 +34,18 @@ const AboutSection = () => {
             <br />
             <p>
               I graduated from Kristiania University College with a Bachelor&#39;s
-              degree in Economics and Digitalization and I&#39;m currently at my last
+              degree in Economics and Digitalization in 2021. Currently, I&#39;m at my last
               year of my Bachelor&#39;s degree in Computer Engineering at the Western
-              Norway University of Applied Sciences.
+              Norway University of Applied Sciences where I&#39;m majoring in Machine Learning. 
             </p>
             <br />
             <p>
-              I have a passion for{" "}
-              <span className="font-bold text-teal-500">{"machine learning"}</span>{" "}
-              and lately I&#39;ve been working on{" "}
-              <span className="font-bold text-teal-500">{"GenAI"}</span>{" "}
-              applications such as a PDF-chat web application, a playlist generator for Spotify and a
-              website-chat tool. My next tech deep dive will be to fine-tune OpenAi&#39;s GPT-3.5-turbo model on a
-              custom dataset with the goal of creating a flexible chatbot with domain specific knowledge.{" "}
+              I have a strong interested in{" "}
+              <span className="font-bold text-teal-500">{"AI"}</span>{" "}
+              and its existing applications in the real world. Lately, I&#39;ve been focusing on building{" "}
+              <span className="font-bold text-teal-500">{"Generative AI"}</span>{" "}
+              applications as well as exploring many different ideas and use-cases for this technology. My next deep dive will be to fine-tune OpenAI&#39;s GPT-3.5-turbo model on a
+              custom dataset with the goal of creating a closed-off and flexible chatbot with domain specific knowledge for small businesses.{" "}
               <span className="font-bold text-teal-500">{"Stay tuned!"}</span>{" "}
 
             </p>
